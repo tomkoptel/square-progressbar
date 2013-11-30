@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ProgressView">
+        <attr name="spbProgressViewStyle" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="SquareProgressView">
+        <attr name="progressOffloat" format="dimension"/>
+        <attr name="progressWidth" format="dimension"/>
+        <attr name="progressColor" format="color"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_progress_bar_color">#ff0099cc</color>
+    <dimen name="default_progress_bar_width">8dp</dimen>
+    <dimen name="default_progress_offloat_width">7dp</dimen>
+</resources>

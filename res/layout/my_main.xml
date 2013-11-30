@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <!--<TextView-->
+        <!--android:id="@+id/textView1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignBottom="@+id/progressSeekBar"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignTop="@+id/progressSeekBar"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:text="@string/progress"-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
+
+    <net.yscs.android.square_progressbar_example.SquareProgressBar2_
+        android:id="@+id/squareProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp" />
+
+    <!--<SeekBar-->
+        <!--android:id="@+id/progressSeekBar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_toLeftOf="@+id/progressDisplay"-->
+        <!--android:layout_toRightOf="@+id/textView1"-->
+        <!--android:max="100"-->
+        <!--android:progress="0" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/progressDisplay"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignBottom="@+id/textView1"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignTop="@+id/progressSeekBar"-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@+id/textView1"-->
+        <!--android:layout_alignLeft="@+id/textView1"-->
+        <!--android:layout_alignRight="@+id/textView1"-->
+        <!--android:layout_alignTop="@+id/widthSeekBar"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:text="@string/width"-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
+
+    <!--<SeekBar-->
+        <!--android:id="@+id/widthSeekBar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@+id/progressSeekBar"-->
+        <!--android:layout_alignLeft="@+id/progressSeekBar"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:max="20"-->
+        <!--android:progress="8" />-->
+
+    <Button
+        android:text="Start"
+        android:id="@+id/startTimer"
+        android:layout_below="@+id/widthSeekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+.idea*
+*.iml
+*.yaml
+*.db
+out/
+bin/
+gen/
+target/
+tmp/
+gen-external-apklibs/
